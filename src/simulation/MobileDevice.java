@@ -80,7 +80,6 @@ public class MobileDevice {
 					curDevice.reset();
 					curDevice.computeByDynamic();
 				} catch( IOException | InterruptedException e) {
-					e.printStackTrace();
 				}
 			}
 		};
@@ -136,7 +135,6 @@ public class MobileDevice {
 					String content = updateBattery("Dynamic");
 					LogUtil.log(curDevice, content);
 				} catch( IOException | InterruptedException e) {
-					e.printStackTrace();
 				}
 			}
 		};

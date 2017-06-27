@@ -45,7 +45,6 @@ public class TaskUtil extends Thread{
 			writer.close();
 			endTime = System.currentTimeMillis();
 		} catch( IOException | InterruptedException e) {
-			e.printStackTrace();
 		}
 		return ( endTime - startingTime ) / 1000;
 	}
@@ -72,7 +71,6 @@ public class TaskUtil extends Thread{
 					device.setLocalTimeSpan( (endTime - startTime) / 1000);
 					device.setHasLocalFinished();
 				} catch( IOException  e) {
-					e.printStackTrace();
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

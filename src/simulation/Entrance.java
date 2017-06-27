@@ -47,6 +47,7 @@ public class Entrance extends Thread{
 			for( MobileDevice device : devices)
 				device.computeByMEC();
 			
+			sleep(100000);
 			System.out.println("-------------------------New Test------------------------------");
 		}
 		

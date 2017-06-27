@@ -17,8 +17,6 @@ public class CloudServer extends Thread{
 			this.server = new ServerSocket(0);
 			this.port = server.getLocalPort();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 		System.out.println("Cloud Server starts to run....");
 	}
@@ -38,7 +36,6 @@ public class CloudServer extends Thread{
 				handleRequest(socket);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
 			}
 		}
 	}
@@ -56,7 +53,6 @@ public class CloudServer extends Thread{
 					long timeSpan = TaskUtil.getInstance().runTaskOnServer(weight);
 					MsgUtil.sendMessage(socket, "FINISH "+timeSpan);
 				} catch( IOException e) {
-					e.printStackTrace();
 				}
 			}
 		};

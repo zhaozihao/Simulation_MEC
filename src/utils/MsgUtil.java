@@ -12,7 +12,6 @@ public class MsgUtil {
 			res = reader.readUTF();
 		}
 		catch (IOException e ) {
-			e.printStackTrace();
 		}
 		return res;
 	}
@@ -23,7 +22,6 @@ public class MsgUtil {
 			writer.writeUTF(content);
 		}
 		catch( IOException e) {
-			e.printStackTrace();
 		}
 	}
 }

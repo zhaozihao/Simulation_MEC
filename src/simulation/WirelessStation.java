@@ -34,7 +34,6 @@ public class WirelessStation{
 			}
 		}
 		catch ( IOException e) {
-			e.printStackTrace();
 		}
 		System.out.print("Wireless Station starts to run with "+channelNum+ " channels ");
 		for( int i : ports) 
@@ -78,7 +77,6 @@ public class WirelessStation{
 						}
 					}
 					catch( IOException e ) {
-						e.printStackTrace();
 					}
 				}
 				
@@ -132,7 +130,6 @@ class WirelessInfoThread extends Thread{
 			MsgUtil.sendMessage(socket, WirelessStation.getWirelessStationInfo());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 	}
 }
@@ -165,7 +162,6 @@ class OffloadThread extends Thread {
 //			WirelessStation.updateConnectionInfo(false, port, 1);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 		
 	}

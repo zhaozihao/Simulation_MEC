@@ -167,3 +167,107 @@ The task computes locally uses 0 seconds
 Cloud computing helps reduce 2 seconds and 8% of total battery life
 At the end, Device 2 has 43% of battery life remained
 --------------------------------------------------------------------------------
+-----------------------------MEC---------------------------------
+At the beginning, Device 2 has 43% of battery life and 41MB data to be transferred.
+Device 2 has finished its task.
+0.7 percentage of task has completed on cloud
+0.3 percentage of task has completed locally
+The transfer of data costs 8 seconds
+The transfer of data uses 2% of total battery life
+The transfer and local computation consumes 6% of total battery life
+The task computes on the cloud uses 4 seconds
+The task computes locally uses 8 seconds
+Cloud computing helps reduce 18 seconds and 9% of total battery life
+At the end, Device 2 has 37% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------Dynamic---------------------------------
+At the beginning, Device 2 has 43% of battery life and 41MB data to be transferred.
+Device 2 has finished its task.
+1.0 percentage of task has completed on cloud
+0.0 percentage of task has completed locally
+The transfer of data costs 0 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 1% of total battery life
+The task computes on the cloud uses 6 seconds
+The task computes locally uses 0 seconds
+Cloud computing helps reduce 24 seconds and 14% of total battery life
+At the end, Device 2 has 42% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------MEC---------------------------------
+At the beginning, Device 2 has 13% of battery life and 14MB data to be transferred.
+Device 2 has finished its task.
+0.9 percentage of task has completed on cloud
+0.1 percentage of task has completed locally
+The transfer of data costs 2 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 2% of total battery life
+The task computes on the cloud uses 5 seconds
+The task computes locally uses 2 seconds
+Cloud computing helps reduce 23 seconds and 13% of total battery life
+At the end, Device 2 has 11% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------Dynamic---------------------------------
+At the beginning, Device 2 has 13% of battery life and 14MB data to be transferred.
+Device 2 has finished its task.
+1.0 percentage of task has completed on cloud
+0.0 percentage of task has completed locally
+The transfer of data costs 0 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 1% of total battery life
+The task computes on the cloud uses 6 seconds
+The task computes locally uses 0 seconds
+Cloud computing helps reduce 24 seconds and 14% of total battery life
+At the end, Device 2 has 12% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------MEC---------------------------------
+At the beginning, Device 2 has 29% of battery life and 26MB data to be transferred.
+Device 2 has finished its task.
+0.8 percentage of task has completed on cloud
+0.2 percentage of task has completed locally
+The transfer of data costs 5 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 3% of total battery life
+The task computes on the cloud uses 5 seconds
+The task computes locally uses 5 seconds
+Cloud computing helps reduce 20 seconds and 12% of total battery life
+At the end, Device 2 has 26% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------Dynamic---------------------------------
+At the beginning, Device 2 has 29% of battery life and 26MB data to be transferred.
+Device 2 has finished its task.
+1.0 percentage of task has completed on cloud
+0.0 percentage of task has completed locally
+The transfer of data costs 0 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 1% of total battery life
+The task computes on the cloud uses 6 seconds
+The task computes locally uses 0 seconds
+Cloud computing helps reduce 24 seconds and 14% of total battery life
+At the end, Device 2 has 28% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------MEC---------------------------------
+At the beginning, Device 2 has 7% of battery life and 35MB data to be transferred.
+Device 2 has finished its task.
+0.9 percentage of task has completed on cloud
+0.1 percentage of task has completed locally
+The transfer of data costs 7 seconds
+The transfer of data uses 2% of total battery life
+The transfer and local computation consumes 3% of total battery life
+The task computes on the cloud uses 5 seconds
+The task computes locally uses 2 seconds
+Cloud computing helps reduce 18 seconds and 12% of total battery life
+At the end, Device 2 has 4% of battery life remained
+--------------------------------------------------------------------------------
+-----------------------------Dynamic---------------------------------
+At the beginning, Device 2 has 7% of battery life and 35MB data to be transferred.
+Device 2 has finished its task.
+1.0 percentage of task has completed on cloud
+0.0 percentage of task has completed locally
+The transfer of data costs 0 seconds
+The transfer of data uses 1% of total battery life
+The transfer and local computation consumes 1% of total battery life
+The task computes on the cloud uses 6 seconds
+The task computes locally uses 0 seconds
+Cloud computing helps reduce 24 seconds and 14% of total battery life
+At the end, Device 2 has 6% of battery life remained
+--------------------------------------------------------------------------------
